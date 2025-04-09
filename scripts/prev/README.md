@@ -6,6 +6,10 @@ This is a very simple script made for the kitty terminal emulator that allows yo
 For the contents of a directory, simply write: 
 
     $ prev <path_to_dir>   
+This will produce an output similar to this:  
+![imagen](https://github.com/user-attachments/assets/b04413c7-7cea-4ee7-81d5-3b96a5bbdf3f)
+
+
 
 If no path is provided, it will show the contents of your current directory
 ### To preview files
@@ -14,7 +18,8 @@ For any supported file (images, pdfs, text files etc), write:
     $ prev <path_to_file>
 
 > Images that are being previewed will show extra information, such as file name, creation date, size etc.
-> ![imagen](https://github.com/user-attachments/assets/9edfb27c-5700-4691-8954-57be21a74e9f)
+> ![image](https://github.com/user-attachments/assets/88f5feb0-c94d-4a67-9960-8711d8e2dfee)
+
 ### Additional arguments
 There are some arguments that can be passed without any path, such as:
 - `--clear-images` or `-ci`: This will erase from the window any images that have been previously rendered
